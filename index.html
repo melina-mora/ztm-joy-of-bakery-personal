@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My first Bootstrap webpage!</title>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Junge&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    	<img id="site-logo" src="img/croissant.png">
+    	Joy of Baking
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/1.jpg" class="d-block w-100 img-fluid" alt="Macaroons">
+    </div>
+    <div class="carousel-item">
+      <img src="img/2.jpg" class="d-block w-100 img-fluid" alt="Croisants">
+    </div>
+    <div class="carousel-item">
+      <img src="img/3.jpg" class="d-block w-100 img-fluid" alt="Bread">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container">
+  <!-- Content here -->
+  <p class="h1">
+  	The Joy of Baking
+  	<img id="site-logo" src="img/croissant.png">
+  </p>
+
+  <div class="row">
+  <div class="col-4">
+    <div id="list-example" class="list-group">
+    <h4>Recipes</h4>
+      <a class="list-group-item list-group-item-action" href="#list-item-1">Macaroons</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Croissant</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <h4 id="list-item-1">Macaroons</h4>
+      <p>
+      	<h5>Ingredients</h5>
+      	<p>
+      		<ul>
+      		<li>100g egg whites (usually between 3–4 large egg whites)</li>
+			<li>1/4 teaspoon (1g) cream of tartar</li>
+			<li>1/2 teaspoon extract such as vanilla, almond, coconut, etc. (optional)</li>
+			<li>80g superfine sugar (aka caster sugar, see note)</li>
+			<li>1–2 drops gel food coloring (optional)</li>
+			<li>125g almond flour</li>
+			<li>125g confectioners’ sugar </li>
+			<li>desired macaron filling (some options listed in notes)</li>
+			</ul>
+      	</p>
+      	<h5>Steps</h5>
+      	<ol>
+      		<li>Wipe down a large glass or metal mixing bowl with lemon juice or vinegar. Add egg whites. Cover and refrigerate for 24 hours, then bring to room temperature.</li>
+      		<li>Line 3 large baking sheets with silicone baking mats or parchment paper. Set aside.</li>
+      		<li>Add cream of tartar and extract (if using) to egg whites. Using a handheld mixer or stand mixer fitted with a whisk attachment, beat together on medium speed until very soft peaks form. This takes a few minutes of beating. At first the egg white and cream of tartar mixture will be foamy, then the bubbles will begin to tighten and the beaters will leave tracks as the egg whites build volume. Once they begin leaving tracks, you likely have soft peaks. Stop beating. Add about 1/3 of the superfine sugar. Beat on medium-high speed for 5 seconds, then with the mixer continuing to run, add another 1/3 of the sugar. Beat for 5 seconds, then with the mixer continuing to run, add the remaining sugar. Beat on medium-high speed until stiff glossy peaks form. (This means the whites have stiff, smooth, and sharp points in the bowl or on the lifted whisk attachment/beaters. Stiff peaks do not droop down. You can turn the bowl upside down and the egg whites will not move or spill out.) Using a rubber spatula, slowly and gently fold the food coloring (if using) into the egg whites.</li>
+      		<li>Sift the almond flour and confectioners’ sugar together in a large glass or metal mixing bowl. Use a spoon to help work any larger pieces through the sieve. You don’t want to discard a lot of that because then you won’t have enough dry ingredients in the batter.</li>
+      		<li>Slowly fold the beaten egg whites into the almond flour mixture in 3 separate additions, folding until combined before adding the next addition. After you add all of the egg whites, pay very close attention to the consistency of your macaron batter. Continue folding the batter (which deflates air) until it thins out into the consistency of honey. What’s a more helpful cue is the figure 8 test. Drop the macaron batter off of your spatula in the form of a figure 8. The figure 8 should take no more than 10 seconds to sink back into itself. If it takes less, your batter was overmixed and is too thin. If it takes longer, continue slowly folding the batter to deflate more air, then perform the figure 8 test again. It’s best to go very slow so you don’t accidentally overmix.</li>
+      		<li>Spoon the macaron batter into a piping bag fitted with a medium round piping tip, such as Wilton 12, Wilton 1A, or even Ateco 806. The macaron batter is very drippy, so transferring to the piping bag can be messy.</li>
+      		<li>Holding the piping bag at a 90 degree angle over the baking sheet, pipe batter in 1.5 – 2 inch rounds about 1-2 inches apart on prepared baking sheets. I usually pipe little mounds—see video tutorial above. The piped macaron batter flattens out. Bang the pan a couple times on the counter to pop any air bubbles, then use a toothpick to pop any remaining air bubbles.</li>
+      		<li>Let the piped macarons sit out until they are dry and no longer tacky on top, usually 30-60 minutes. This time allows the top to firm up and form a skin, which helps the macarons rise UP and form their trademark ruffly “feet.” Do not let them sit out for longer than they need to because they could begin to deflate.</li>
+      		<li>Meanwhile, preheat the oven to 325°F (163°C).</li>
+      		<li>Bake for 13 minutes. As the macaron shells bake, they should form feet. To test for doneness, lightly touch the top of a macaron with a spoon or your finger (careful, it’s hot). If the macaron seems wobbly, it’s not done and needs another 1-2 minutes. If it seems set, it’s done. Basically, bake until the macarons don’t move around when touched.</li>
+      		<li>Let the shells cool on the baking sheet for 15 minutes, then transfer to a cooling rack to continue cooling. The macaron shells may stick to the parchment paper/baking sheet if you try to remove them too early. If this is happening, let them cool on the baking sheet a little longer before removing.</li>
+      		<li>After cooling, the shells are ready to fill and sandwich together. I have plenty of filling suggestions in the recipe notes below. You can spread filling with a knife or pipe it using the same round tip you used for the macaron batter.</li>
+      		<li>You can eat right away or, as some professionals prefer, cover and refrigerate them 12-24 hours so the macarons and flavors can mature. Bring to room temperature before serving. (I usually just serve them right away!)</li>
+      		<li>Cover leftover macarons and refrigerate for up to 5 days.</li>
+      	</ol>
+      </p>
+      <h4 id="list-item-2">Croissant</h4>
+      <p>
+      	<h5>Ingredients</h5>
+      	<ol>
+      		<li>1/4 cup (4 Tbsp; 56g) unsalted butter, softened to room temperature</li>
+			<li>4 cups (500g) all-purpose flour (spooned & leveled), plus more for rolling/shaping</li>
+			<li>1/4 cup (50g) granulated sugar</li>
+			<li>2 teaspoons salt</li>
+			<li>1 Tablespoon active dry or instant yeast</li>
+			<li>1 and 1/2 cups (360ml) cold whole milk</li>
+      	</ol>
+      	<h6>Butter Layer</h6>
+      		<ol>
+				<li>1/4 cup (4 Tbsp; 56g) unsalted butter, softened to room temperature</li>
+				<li>4 cups (500g) all-purpose flour (spooned & leveled), plus more for rolling/shaping</li>
+      		</ol>
+      	<h6>Egg Wash</h6>
+      	<ol>
+      		<li>1 large egg</li>
+      		<li>2 Tablespoons (30ml) whole milk</li>
+      	</ol>
+      	<h5>Steps</h5>
+      	<ol>
+      		<li>Preliminary notes: Watch the video below and use the step-by-step photos before you begin. Read the recipe before beginning. Make room in the refrigerator for a baking sheet. In step 6 and again in step 13, you will need room for 2 baking sheets.</li>
+      		<li>Make the dough: Cut the butter in four 1-Tablespoon pieces and place in the bowl of an electric stand mixer fitted with the dough hook attachment (or you can use a handheld mixer or no mixer, but a stand mixer is ideal). Add the flour, sugar, salt, and yeast. Turn the mixer on low-medium speed to gently combine the ingredients for 1 minute. With the mixer running, slowly pour in the milk. Once all of the milk is added, turn the mixer up to medium speed and begin to knead the dough.</li>
+      		<li>Knead the dough: Keep the dough in the mixer and beat for an additional 5 full minutes, or knead by hand on a lightly floured surface for 5 full minutes. (If you’re new to bread-baking, my How to Knead Dough video tutorial can help here.) If the dough becomes too sticky during the kneading process, sprinkle 1 teaspoon of flour at a time on the dough or on the work surface/in the bowl to make a soft, slightly tacky dough. Do not add more flour than you need because you do not want a dry dough. After kneading, the dough should still feel a little soft. Poke it with your finger—if it slowly bounces back, your dough is ready to rest. You can also do a “windowpane test” to see if your dough has been kneaded long enough: tear off a small (roughly golfball-size) piece of dough and gently stretch it out until it’s thin enough for light to pass through it. Hold it up to a window or light. Does light pass through the stretched dough without the dough tearing first? If so, your dough has been kneaded long enough and is ready to rest. If not, keep kneading until it passes the windowpane test.</li>
+      		<li>Remove dough from the bowl and, with floured hands, work it into a ball. Place the dough on a lightly floured silicone baking mat lined, lightly floured parchment paper lined, or lightly floured baking sheet. (I highly recommend a silicone baking mat because you can roll the dough out in the next step directly on top and it won’t slide all over the counter.) Gently flatten the dough out, as I do in the video below, and cover with plastic wrap or aluminum foil. Place the entire baking sheet in the refrigerator and allow the covered dough to rest in the refrigerator for 30 minutes.</li>
+      		<li>Shape the dough: Remove the dough from the refrigerator. I like to keep the dough on the silicone baking mat when I’m rolling it in this step because the mat is nonstick and it’s a handy guide for the exact measurement. Begin flattening out the dough with your hands. You’re rolling it out into a rectangle in this step, so shaping it with your hands first helps the stretchy dough. Roll it into a 14×10-inch rectangle. The dough isn’t extremely cold after only 30 minutes in the refrigerator, so it will feel more like soft play-doh. Be precise with the measurement. The dough will want to be oval shaped, but keep working the edges with your hands and rolling pin until you have the correct size rectangle.</li>
+      		<li>Long rest: Place the rolled out dough back onto the baking sheet (this is why I prefer a silicone baking mat or parchment because you can easily transfer the dough). Cover the rolled out dough with plastic wrap or aluminum foil, place the entire baking sheet in the refrigerator and allow the covered dough to rest in the refrigerator for 4 hours or overnight. (Up to 24 hours is ok.)</li>
+      		<li>Butter layer (begin this 35 minutes before the next step so the butter can chill for 30 minutes): In a large bowl using a hand-held mixer or stand mixer fitted with a paddle or whisk attachment, beat the butter and flour together until smooth and combined. Transfer the mixture to a silicone baking mat lined or parchment paper lined baking sheet. (Silicone baking mat is preferred because you can easily peel the butter off in the next step.) Using a spoon or small spatula, smooth out into a 7×10-inch rectangle. Be as precise as you can with this measurement. Place the entire baking sheet in the refrigerator and chill the butter layer for 30 minutes. (No need to cover it for only 30 minutes.) You want the butter layer firm, but still pliable. If it gets too firm, let it sit out on the counter for a few minutes to gently soften. The more firm the butter layer is the more difficult it will be to laminate the dough in the next step.</li>
+      		<li>Laminate the dough: In this next step, you will be rolling out the dough into a large rectangle. Do this on a lightly floured counter instead of rolling out on your silicone baking mat. The counter is typically a little cooler (great for keeping the dough cold) and the silicone baking mat is smaller than the measurement you need. Remove both the dough and butter layers from the refrigerator. Place the butter layer in the center of the dough and fold each end of the dough over it. If the butter wasn’t an exact 7×10-inch rectangle, use a pizza cutter or sharp knife to even out the edges. Seal the dough edges over the butter layer as best you can with your fingers. On a lightly floured counter, roll the dough into a 10×20-inch rectangle. It’s best to roll back and forth with the shorter end of the dough facing you, like I do in the video below. Use your fingers if you need to. The dough is very cold, so it will take a lot of arm muscle to roll. Again, the dough will want to be oval shaped, but keep working it with your hands and rolling pin until you have the correct size rectangle. Fold the dough lengthwise into thirds as if you were folding a letter. This was the 1st turn.</li>
+      		<li>If the dough is now too warm to work with, place folded dough on the baking sheet, cover with plastic wrap or aluminum foil, and refrigerate for 30 minutes before the 2nd turn. I usually don’t have to.</li>
+      		<li>2nd turn: Turn the dough so the short end is facing you. Roll the dough out once again into a 10×20-inch rectangle, then fold the dough lengthwise into thirds as if you were folding a letter. The dough must be refrigerated between the 2nd and 3rd turn because it has been worked with a lot by this point. Place the folded dough on the baking sheet, cover with plastic wrap or aluminum foil, and refrigerate for 30 minutes before the 3rd turn.</li>
+      		<li>3rd turn: Roll the dough out once again into a 10×20-inch rectangle. Fold the dough lengthwise into thirds as if you were folding a letter.</li>
+      		<li>Long rest: Place the folded dough on the lined baking sheet, cover with plastic wrap or aluminum foil, and refrigerate for 4 hours or overnight. (Up to 24 hours is ok.)</li>
+      		<li>At the end of the next step, you’ll need 2 baking sheets lined with silicone baking mats or parchment paper. The dough is currently on a lined baking sheet in the refrigerator, so you already have 1 prepared!</li>
+      		<li>Shape the croissants: Remove the dough from the refrigerator. On a lightly floured counter, roll the dough out into an 8×20-inch rectangle. Use your fingers if you need to. Once again, the dough is very cold, so it will take a lot of arm muscle to roll. The dough will want to be oval shaped, but keep working it with your hands and rolling pin until you have the correct size rectangle. Using a pizza cutter or sharp knife, slice the dough in half vertically. Each skinny rectangle will be 4-inches wide. Then cut 3 even slices horizontally, yielding 8 4×5-inch rectangles. See photo above for a visual. Cut each rectangle diagonally to make 2 triangles. You have 16 triangles now. Work with one triangle at a time. Using your fingers or a rolling pin, stretch the triangle to be about 8 inches long. Do this gently as you do not want to flatten the layers. Cut a small slit at the wide end of the triangle, then tightly roll up into a crescent shape making sure the tip is underneath. Slightly bend the ends in towards each other. Repeat with remaining dough, placing the shaped croissants on 2 lined baking sheets, 8 per sheet. Loosely cover with plastic wrap or aluminum foil and allow to rest at room temperature (no warmer– I suggest keeping on the counter) for 1 hour, then place in the refrigerator to rest for 1 hour or up to 12 hours. (Or freeze, see freezing instructions.) I prefer the shaped croissants to be cold going into the oven.</li>
+      		<li>Preheat oven to 400°F (204°C).</li>
+      		<li>Egg wash: Whisk the egg wash ingredients together. Remove the croissants from the refrigerator. Brush each lightly with egg wash.</li>
+      		<li>Bake the croissants: Bake until croissants are golden brown, about 20 minutes. Rotate the pans halfway through baking. If croissants show signs of darkening too quickly, reduce the oven to 375°F (190°C).</li>
+      		<li>Remove croissants from the oven and place on a wire rack to cool for a few minutes before serving. They will slightly deflate as they cool.</li>
+      		<li>Croissants taste best the same day they’re baked. Cover any leftover croissants and store at room temperature for a few days or in the refrigerator for up to 1 week. You can also freeze for up to 3 months, then thaw on the counter or overnight in the refrigerator. Warm up to your liking.</li>
+      	</ol>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
